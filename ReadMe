@@ -2,50 +2,51 @@
 
 A machine learning project to detect fraudulent financial transactions using classification algorithms. Built to tackle one of the most critical real-world problems in fintech — identifying fraud in highly imbalanced datasets.
 
----
+-----
 
 ## 📌 Problem Statement
 
 Credit card fraud causes billions in losses globally every year. The challenge is that fraudulent transactions are extremely rare compared to legitimate ones, making this a classic **imbalanced classification problem**. The goal of this project is to build a model that can accurately flag suspicious transactions while minimizing false positives.
 
----
+-----
 
 ## 🛠️ Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| Python | Core language |
-| Pandas & NumPy | Data manipulation |
-| Scikit-learn | ML models & evaluation |
-| Matplotlib & Seaborn | Visualizations |
-| Jupyter Notebook | Development environment |
+|Tool                |Purpose                |
+|--------------------|-----------------------|
+|Python              |Core language          |
+|Pandas & NumPy      |Data manipulation      |
+|Scikit-learn        |ML models & evaluation |
+|Matplotlib & Seaborn|Visualizations         |
+|Jupyter Notebook    |Development environment|
 
----
+-----
 
 ## 📊 Workflow
 
 1. **Exploratory Data Analysis (EDA)** — Understanding distributions, class imbalance, and feature correlations
-2. **Data Preprocessing** — Handling missing values, feature scaling, and encoding
-3. **Handling Class Imbalance** — Techniques like SMOTE / undersampling to balance the dataset
-4. **Model Training** — Trained and compared multiple classifiers:
-   - Logistic Regression
-   - Random Forest
-   - XGBoost / Gradient Boosting
-5. **Evaluation** — Focused on Precision, Recall, F1-Score, and AUC-ROC (accuracy alone is misleading on imbalanced data)
+1. **Data Preprocessing** — Handling missing values, feature scaling, and encoding
+1. **Handling Class Imbalance** — Techniques like SMOTE / undersampling to balance the dataset
+1. **Model Training** — Trained and compared multiple classifiers:
+- Logistic Regression
+- Random Forest
+- XGBoost / Gradient Boosting
+1. **Evaluation** — Focused on Precision, Recall, F1-Score, and AUC-ROC (accuracy alone is misleading on imbalanced data)
 
----
+-----
 
 ## 📈 Key Results
 
-| Metric | Score |
-|--------|-------|
-| Precision | High — minimizes false fraud alerts |
-| Recall | Optimized — catches actual fraud cases |
-| AUC-ROC | Strong discrimination between fraud and non-fraud |
+|Metric   |Score                                            |
+|---------|-------------------------------------------------|
+|Precision|High — minimizes false fraud alerts              |
+|Recall   |Optimized — catches actual fraud cases           |
+|AUC-ROC  |Strong discrimination between fraud and non-fraud|
+
 
 > Full results and visualizations are available inside the notebook.
 
----
+-----
 
 ## 📂 Project Structure
 
@@ -56,7 +57,7 @@ Fraud-Transaction-Detection/
 └── README.md
 ```
 
----
+-----
 
 ## 🚀 How to Run
 
@@ -74,7 +75,7 @@ jupyter notebook FraudTransactionDetection3.ipynb
 
 **Dataset:** Available [here](https://drive.google.com/file/d/1-zOKe7FjKdpahCgpRKhDQwvVPNNkVKQB/view?usp=sharing)
 
----
+-----
 
 ## 💡 Key Learnings
 
@@ -82,12 +83,12 @@ jupyter notebook FraudTransactionDetection3.ipynb
 - Ensemble methods (Random Forest, XGBoost) significantly outperform linear models on tabular fraud data
 - Feature scaling is critical for distance-based and linear models
 
----
+-----
 
 ## 👤 Author
 
 **Somendra Singh**
+
 - 🔗 [LinkedIn](https://linkedin.com/in/somendrew)
 - 🐙 [GitHub](https://github.com/somendrew)
 - 📊 [Kaggle](https://kaggle.com/somendrew)
-
